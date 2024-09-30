@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media.css" />
+    <script src="./javascript/script.js" defer></script>
+  </head>
+  <body>
+    
+    <header class="header-mobile">
+      <img class="header-mobile__logo" src="./images/logo.svg" alt="logo" />
+      <a class="header-mobile__link" href="#"
+        ><img
+          class="header-mobile__burger-icon"
+          src="./images/icon-burger-menu-2x.png"
+          alt="icon burger-menu"
+      /></a>
+    </header>
+
+    <aside class="menu-mobile">
+      <div class="menu-mobile__header">
+        <div class="side__photo-manager">
+          <img src="./images/photo-manager.svg" alt="manager's photo" />
+          <div class="side__photo-manager-name">
+            <p>Evano</p>
+            <p>Project Manager</p>
+          </div>
+        </div>
+        <a class="header-mobile__link-close" href="#"
+          ><img
+            class="header-mobile__burger-icon"
+            src="./images/icon-close-2x.png"
+            alt="icon burger-menu"
+        /></a>
+      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="#dashboard"
+              ><img src="./images/key-dashboard.svg" alt="icon" />Dashboard<img
+                src="./images/errow-right-white.svg"
+                alt="arrow icon"
+            /></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#product"
+              ><img src="./images/product-icon.svg" alt="icon" />Product<img
+                src="./images/errow-right-black.svg"
+                alt="arrow icon"
+            /></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link active-link" href="#customers"
+              ><img src="./images/customers-icon.svg" alt="icon" />Customers<img
+                src="./images/errow-right-white.svg"
+                alt="arrow icon"
+            /></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#income"
+              ><img src="./images/income-icon.svg" alt="icon" />Income<img
+                src="./images/errow-right-black.svg"
+                alt="arrow icon"
+            /></a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#promote"
+              ><img src="./images/promote-icon.svg" alt="icon" />Promote<img
+                src="./images/errow-right-black.svg"
+                alt="arrow icon"
+            /></a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <div class="container">
+      <div class="side-menu">
+        <div class="logo">
+          <img src="./images/logo-black.svg" alt="logo" />
+          <p>v.01</p>
+        </div>
+
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#dashboard"
+                ><img
+                  src="./images/key-dashboard.svg"
+                  alt="icon" />Dashboard<img
+                  src="./images/errow-right-white.svg"
+                  alt="arrow icon"
+              /></a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#product"
+                ><img src="./images/product-icon.svg" alt="icon" />Product<img
+                  src="./images/errow-right-black.svg"
+                  alt="arrow icon"
+              /></a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link active-link" href="#customers"
+                ><img
+                  src="./images/customers-icon.svg"
+                  alt="icon" />Customers<img
+                  src="./images/errow-right-white.svg"
+                  alt="arrow icon"
+              /></a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#income"
+                ><img src="./images/income-icon.svg" alt="icon" />Income<img
+                  src="./images/errow-right-black.svg"
+                  alt="arrow icon"
+              /></a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#promote"
+                ><img src="./images/promote-icon.svg" alt="icon" />Promote<img
+                  src="./images/errow-right-black.svg"
+                  alt="arrow icon"
+              /></a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="side__photo-manager side__photo-manager--modifier">
+          <img src="./images/photo-manager.svg" alt="manager's photo" />
+          <div class="side__photo-manager-name">
+            <p>Evano</p>
+            <p>Project Manager</p>
+          </div>
+        </div>
+      </div>
+      <main class="main">
+        <div class="product">
+          <h2>Hello Evano 👋🏼,</h2>
+
+          <div class="product__wrapper">
+            <div class="product__header">
+              <div class="product__header-title">
+                <h1>All Customers</h1>
+                <p>Active Members</p>
+              </div>
+              <div class="product__header-search">
+                <input
+                  class="search"
+                  type="search"
+                  name="search"
+                  placeholder="Search"
+                />
+              </div>
+            </div>
+
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Customer Name</th>
+                  <th>Company</th>
+                  <th>Phone Number</th>
+                  <th>Email</th>
+                  <th>Country</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Jane Cooper</td>
+                  <td>Microsoft</td>
+                  <td>(255) 555-1018</td>
+                  <td>jane@microsoft.com</td>
+                  <td>United States</td>
+                  <td><span class="table__active">Active</span></td>
+                </tr>
+                <tr>
+                  <td>Floyd Miles</td>
+                  <td>Yahoo</td>
+                  <td>(255) 555-0100</td>
+                  <td>floyd@yahoo.com</td>
+                  <td>Kiribati</td>
+                  <td><span class="table__Inactive">Inactive</span></td>
+                </tr>
+                <tr>
+                  <td>Ronald Richards</td>
+                  <td>Adobe</td>
+                  <td>(302) 555-0107</td>
+                  <td>ronald@adobe.com</td>
+                  <td>Israel</td>
+                  <td><span class="table__Inactive">Inactive</span></td>
+                </tr>
+                <tr>
+                  <td>Marvin McKinney</td>
+                  <td>Tesla</td>
+                  <td>(252) 555-0126</td>
+                  <td>marvin@tesla.com</td>
+                  <td>Iran</td>
+                  <td><span class="table__active">Active</span></td>
+                </tr>
+                <tr>
+                  <td>Jerome Bell</td>
+                  <td>Google</td>
+                  <td>(629) 555-0129</td>
+                  <td>jerome@google.com</td>
+                  <td>Réunion</td>
+                  <td><span class="table__active">Active</span></td>
+                </tr>
+                <tr>
+                  <td>Kathryn Murphy</td>
+                  <td>Microsoft</td>
+                  <td>(406) 555-0120</td>
+                  <td>kathryn@microsoft.com</td>
+                  <td>Curaçao</td>
+                  <td><span class="table__active">Active</span></td>
+                </tr>
+                <tr>
+                  <td>Jacob Jones</td>
+                  <td>Yahoo</td>
+                  <td>(208) 555-0112</td>
+                  <td>jacob@yahoo.com</td>
+                  <td>Brazil</td>
+                  <td><span class="table__active">Active</span></td>
+                </tr>
+                <tr>
+                  <td>Kristin Watson</td>
+                  <td>Facebook</td>
+                  <td>(704) 555-0127</td>
+                  <td>kristin@facebook.com</td>
+                  <td>Åland Islands</td>
+                  <td><span class="table__Inactive">Inactive</span></td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="product__pagination">
+              <p>Showing data 1 to 8 of 256K entries</p>
+              <div class="pagination">
+                <a href="#" class="pagination__prev">&lt;</a>
+                <a href="#" class="pagination__page pagination-active">1</a>
+                <a href="#" class="pagination__page">2</a>
+                <a href="#" class="pagination__page">3</a>
+                <a href="#" class="pagination__page">4</a>
+                <span class="pagination__dots">...</span>
+                <a href="#" class="pagination__page">40</a>
+                <a href="#" class="pagination__next">&gt;</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
