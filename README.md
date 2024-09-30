@@ -14,7 +14,7 @@ git clone https://github.com/RuslanHnatyshyn/dashboard_v01.git
 
 
 ## Demo
-[Dashboard_v01]
+[Dashboard_v01](https://ruslanhnatyshyn.github.io/dashboard_v01/)
 
 - **Author**: Ruslan Hnatyshyn
 
