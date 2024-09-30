@@ -6,7 +6,7 @@ Responsive layout of **Dashboard_v01** created using **HTML, CSS, JavaScript** a
 
 ### Clone the repository
 ```bash
-git clone <https://github.com/RuslanHnatyshyn/dashboard_v01.git>
+git clone https://github.com/RuslanHnatyshyn/dashboard_v01.git
 
 ```
 
